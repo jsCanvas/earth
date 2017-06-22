@@ -1,0 +1,57 @@
+<!DOCTYPE html>
+<html lang="en">
+    <head>
+        <title>新时代的共享</title>
+        <meta charset="UTF-8">
+        <meta http-equiv="X-UA-Compatible" content="IE=Edge">
+        <meta name="keywords" content="web5新时代的共享">
+        <meta name="author" content="任碧涛">
+        <meta name="description" content="快速构建HTML5开发，页面搭建，效果制作，webGL，webVR，共享开发，微信分享。">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0, maximum-scale=1.0, user-scalable=no">
+        <meta name="format-detection" content="telephone=no, email=no, date=no, address=no">
+        <meta http-equiv="X-UA-Compatible" content="IE=edge,chrome=1"/>
+        <meta name="full-screen" content="true"/>
+        <meta name="x5-fullscreen" content="true"/>
+        <meta name="360-fullscreen" content="true"/>
+        <meta name="apple-mobile-web-app-capable" content="yes"/>
+        <link type="text/css" rel="stylesheet" href="css/swiper.min.css">
+        <link type="text/css" rel="stylesheet" href="css/bootstrap.min.css">
+        <link type="text/css" rel="stylesheet" href="css/bootstrap-theme.min.css">
+        <link type="text/css" rel="stylesheet" href="css/animate.css">
+        <link type="text/css" rel="stylesheet" href="css/reset.css">
+        <link type="text/css" rel="stylesheet" href="css/common.css">
+        <link type="text/css" rel="stylesheet" href="css/style.css">
+        <script type="text/javascript">
+        function setFont(){
+            var screenWidth=document.documentElement.clientWidth;
+                if(screenWidth<320){
+                    screenWidth=320;
+                };
+                if(screenWidth>768){
+                    screenWidth=768;
+                };
+            var fontSizeC=screenWidth/640*100;
+            document.documentElement.style.fontSize=fontSizeC+"px";
+        }
+        setFont();
+        window.onresize=function(){
+            setFont();
+            // console.log(fontSizeC);
+        }
+        </script>
+        <script type="text/javascript" src="js/swiper.min.js"></script>
+        <script type="text/javascript" src="js/jquery.js"></script>
+        <script type="text/javascript" src="js/bootstrap.min.js"></script>
+        <script type="text/javascript" src="js/iscroll.js"></script>
+        <script type="text/javascript" src="script/three.min.js"></script>
+        <script type="text/javascript" src="script/threee.min.js"></script>
+        <script type="text/javascript" src="script/OrbitControls.js"></script>
+        <script type="text/javascript" src="script/stats.min.js"></script>
+    </head>
+    <body>
+        <div id="header"></div>
+        
+        <script src="js/mythree.js"></script>
+        <script src="js/script.js"></script>
+    </body>
+</html>
